@@ -13,7 +13,7 @@ setuptools.setup(
      description="Sampling from a Maximum-Likelihood fitted Multi-Gaussian distribution in TensorFlow 2.1",
      long_description=long_description,
      long_description_content_type="text/markdown",
-     install_requires = ['tensorflow==2.1.0', 'FastQuantileLayer'], 
+     install_requires = ['tensorflow==2.6.4', 'FastQuantileLayer'], 
      url="https://github.com/landerlini/multigaussampler",
      packages=setuptools.find_packages(),
      classifiers=[
